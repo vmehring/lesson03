@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style media="screen">
       body {
+        font-size: 16px;
         color: darkblue;
         background-color: cornflowerblue
       }
@@ -14,13 +15,24 @@
         color: darkseagreen;
       }
       .first-para:hover {
-        background: darkmagenta;
+        background: rgba(255,155,155,0.4);
+        font-size: 2rem;
+        <!--width: 33%;-->
       }
       a:hover {
         color: white;
       }
       a[href="about-me.html"] {
         color: green;
+      }
+      .first-article {
+        width: 50%;
+      }
+      .first-img {
+        border: 10px dotted salmon;
+      }
+      .second-img {
+        border: 12px double purple;
       }
     </style>
   </head>
@@ -29,6 +41,7 @@
       <h1>Website Title</h1>
     </header>
     <main>
+      <article class="first-article">
       <p class="first-para">Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Ut tincidunt feugiat lorem eu scelerisque. Orci varius natoque
         penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -46,6 +59,10 @@
         dignissim magna sapien porta massa. Cras sagittis justo odio, eu
         euismod eros pretium nec. Donec tempus sapien at semper pulvinar. Nam
         quis dui mollis, posuere enim quis, mollis augue. </p>
+      </article>
+      <img src="images/squishy-doggie.jpg" class="first-img">
+      <img src="images/fluffy-puppy.jpg" class="second-img">
+      <br>
       <a href="about-me.html">About Me</a>
       <br>
       <a href="portfolio.html">Portfolio</a>
