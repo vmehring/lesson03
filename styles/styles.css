@@ -1,0 +1,36 @@
+body {
+  font-size: 16px;
+  color: darkblue;
+  background-color: cornflowerblue
+}
+p {
+  color: darkseagreen;
+}
+.first-para:hover {
+  background: rgba(255,155,155,0.4);
+  font-size: 2rem;
+  <!--width: 33%;-->
+}
+a:hover {
+  color: white;
+}
+a[href="about-me.html"] {
+  color: green;
+}
+.first-article {
+  width: 50%;
+}
+.first-img {
+  border: 10px dotted salmon;
+}
+.second-img {
+  border: 12px double purple;
+}
+.second-para {
+  width: 16rem;
+  text-align: justify;
+  padding: 1rem;
+  border: 5px solid #DDA0DD;
+  border-radius: 5px;
+  margin: 10px;
+}
